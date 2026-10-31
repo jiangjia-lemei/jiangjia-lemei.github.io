@@ -97,3 +97,7 @@ footer .small{font-size:.8rem;opacity:.85}
 }
 @media (prefers-reduced-motion:no-preference){.btn{transition:filter .15s}}
 .range{margin:0;font-size:.8rem;color:var(--muted)}
+.pjudge{flex-basis:100%;margin:0 0 4px;font-size:.88rem;font-weight:700;color:var(--ink)}
+.pjudge.good{color:var(--down)}
+.pjudge.cmp{padding-top:6px;border-top:1px dashed var(--line)}
+.diff{margin-top:8px}
